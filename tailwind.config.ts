@@ -7,13 +7,34 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // colors: {
+    //   "color1": "#006BFF",
+    //   "color2": "#FEF9F2"
+    // },
     extend: {
+      spacing: {
+        "5px": "5px",
+        "15px": "15px",
+        "25px": "25px",
+        "10%": "10%",
+        "30%": "30%",
+        "50%": "50%",
+      },
       colors: {
-        background: "var(--background)",
+        background: "var(--bacground)",
         foreground: "var(--foreground)",
+        color1: "#006BFF",
+        color2: "#FCFAEE",
+        color3: {
+          satu: "#FFCC00",
+          dua: "#FF0000",
+        },
       },
     },
   },
-  plugins: [],
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ["light"],
+  },
 };
 export default config;
