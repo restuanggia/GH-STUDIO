@@ -1,6 +1,4 @@
-import Link from "next/link"
 import "./globals.css" //import globals.css
-import Image from "next/image"
 import "@fortawesome/fontawesome-svg-core/styles.css"  //import fontawesome
 
 export const metadata = {
@@ -59,9 +57,6 @@ export default function RootLayout({
             <a href="https://daisyui.com/" className="link link-hover">Daisy UI</a>
           </nav>
         </footer>
-        {/* <footer className="flex justify-center text-center bg-color1 text-color2 py-15px">
-          Copyright &copy; 2024 - TechMart
-        </footer> */}
       </body>
     </html>
   )
