@@ -26,6 +26,15 @@ export default function RootPage() {
         "https://www.lg.com/content/dam/channel/wcms/id/images/monitor/22mr410-b_atiq_eain_id_c/gallery/large03.jpg",
       link: "https://www.lg.com/id/monitor/fhd-qhd/22mr410-b/",
     },
+
+    {
+      id: 3,
+      title: "Mouse",
+      description:
+        "Pasti dari kalian semua sering banget mendengar kata Onboard Memory dalam mouse gaming !!! Tapi tahukah kalian sebenarnya tentang pengertian onboard ...",
+      image: "https://www.nyk.co.id/wp-content/uploads/2021/04/s4.jpeg",
+      link: "https://www.nyk.co.id/onboard-memory-pada-mouse-gaming/",
+    },
     
   ];
 
