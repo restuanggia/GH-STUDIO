@@ -35,8 +35,12 @@ export default function RootPage() {
       image: "https://www.nyk.co.id/wp-content/uploads/2021/04/s4.jpeg",
       link: "https://www.nyk.co.id/onboard-memory-pada-mouse-gaming/",
     },
-    
   ];
+
+  const filteredProducts = products.filter((product) =>
+    product.title.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
 
   
 }
