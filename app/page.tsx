@@ -16,6 +16,16 @@ export default function RootPage() {
         "https://dibimbing-cdn.sgp1.cdn.digitaloceanspaces.com/1693586160053-10-Rekomendasi-Laptop-Terbaik-untuk-Data-Analyst-2023.webp",
       link: "https://dibimbing.id/blog/detail/10-rekomendasi-laptop-terbaik-untuk-data-analyst-2023",
     },
+
+    {
+      id: 2,
+      title: "Monitor",
+      description:
+        "LG Monitor meningkatkan akurasi warna melalui layar LCD. Layar 21,45 inci dengan Full HD (1920x1080) dapat meningkatkan ...",
+      image:
+        "https://www.lg.com/content/dam/channel/wcms/id/images/monitor/22mr410-b_atiq_eain_id_c/gallery/large03.jpg",
+      link: "https://www.lg.com/id/monitor/fhd-qhd/22mr410-b/",
+    },
     
   ];
 
