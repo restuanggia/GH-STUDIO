@@ -60,6 +60,12 @@ export default function RootPage() {
           </div>
         </div>
       </div>
+      {/* Daftar Produk */}
+      <div className="flex justify-end mt-16 mb-12">
+        <button className="btn bg-color1 text-color2">
+          <a href="/product">Lihat Semua</a>
+        </button>
+      </div>
     </div>
   );
 
