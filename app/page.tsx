@@ -77,7 +77,12 @@ export default function RootPage() {
                 <h2 className="card-title">{product.title}</h2>
                 <p>{product.description}</p>
                 <div className="card-actions justify-end">
-                  {/* coding disini */}
+                <button
+                    className="btn bg-color1 text-color2"
+                    onClick={() => (window.location.href = product.link)}
+                  >
+                    Baca Selengkapnya...
+                  </button>
                 </div>
               </div>
             </div>
