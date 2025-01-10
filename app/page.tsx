@@ -1,4 +1,3 @@
-
 "use client"
 
 import { useState } from "react";
@@ -16,7 +15,6 @@ export default function RootPage() {
         "https://dibimbing-cdn.sgp1.cdn.digitaloceanspaces.com/1693586160053-10-Rekomendasi-Laptop-Terbaik-untuk-Data-Analyst-2023.webp",
       link: "https://dibimbing.id/blog/detail/10-rekomendasi-laptop-terbaik-untuk-data-analyst-2023",
     },
-
     {
       id: 2,
       title: "Monitor",
@@ -26,7 +24,6 @@ export default function RootPage() {
         "https://www.lg.com/content/dam/channel/wcms/id/images/monitor/22mr410-b_atiq_eain_id_c/gallery/large03.jpg",
       link: "https://www.lg.com/id/monitor/fhd-qhd/22mr410-b/",
     },
-
     {
       id: 3,
       title: "Mouse",
@@ -34,7 +31,7 @@ export default function RootPage() {
         "Pasti dari kalian semua sering banget mendengar kata Onboard Memory dalam mouse gaming !!! Tapi tahukah kalian sebenarnya tentang pengertian onboard ...",
       image: "https://www.nyk.co.id/wp-content/uploads/2021/04/s4.jpeg",
       link: "https://www.nyk.co.id/onboard-memory-pada-mouse-gaming/",
-    },
+    },
   ];
 
   const filteredProducts = products.filter((product) =>
@@ -42,19 +39,30 @@ export default function RootPage() {
   );
 
   return (
-      <div>
-           {/* Hero Section */}
+    <div>
+      {/* Hero Section */}
       <div
         className="hero min-h-screen"
         style={{
           backgroundImage:
             "url(https://palpres.disway.id/upload/bef2288175b986703f8cbf59831588ee.jpeg)",
         }}
-       >
+      >
+        <div className="hero-overlay bg-opacity-80"></div>
+        <div className="hero-content text-neutral-content text-center">
+          <div className="max-w-md">
+            <h1 className="mb-5 text-5xl font-bold">Selamat Datang di TechMart</h1>
+            <p className="mb-5">
+              TechMart, Pilihan Cerdas dan Terpercaya untuk Segala Kebutuhan Elektronik Anda,
+              dari Laptop dan Komputer Canggih hingga Aksesoris Modern yang Mendukung Gaya Hidup Digital Anda.
+            </p>
+            <button className="btn bg-color1 text-color2"><a href="/about">Get Started</a></button>
           </div>
+        </div>
       </div>
+    </div>
   );
 
 
-  
+
 }
