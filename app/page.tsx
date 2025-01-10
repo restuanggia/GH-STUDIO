@@ -41,6 +41,20 @@ export default function RootPage() {
     product.title.toLowerCase().includes(searchQuery.toLowerCase())
   );
 
+  return (
+      <div>
+           {/* Hero Section */}
+      <div
+        className="hero min-h-screen"
+        style={{
+          backgroundImage:
+            "url(https://palpres.disway.id/upload/bef2288175b986703f8cbf59831588ee.jpeg)",
+        }}
+       >
+          </div>
+      </div>
+  );
+
 
   
 }
