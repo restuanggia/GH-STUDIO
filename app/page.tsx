@@ -56,7 +56,7 @@ export default function RootPage() {
               TechMart, Pilihan Cerdas dan Terpercaya untuk Segala Kebutuhan Elektronik Anda,
               dari Laptop dan Komputer Canggih hingga Aksesoris Modern yang Mendukung Gaya Hidup Digital Anda.
             </p>
-            <button className="btn bg-color1 text-color2"><a href="/about">Get Started</a></button>           
+            <button className="btn bg-color1 text-color2"><a href="/about">Get Started</a></button>
           </div>
         </div>
       </div>
@@ -68,13 +68,22 @@ export default function RootPage() {
       </div>
       <div className="mt-12 px-4">
         <div className="flex justify-around flex-wrap">
-          //coding disini
+          {filteredProducts.map((product) => (
+            <div key={product.id} className="card bg-base-100 w-96 shadow-xl mb-6">
+              <figure>
+                <img src={product.image} alt={product.title} />
+              </figure>
+              <div className="card-body">
+                <h2 className="card-title">{product.title}</h2>
+                <p>{product.description}</p>
+                <div className="card-actions justify-end">
+                  {/* coding disini */}
+                </div>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </div>
-
   );
-
-
-
 }
