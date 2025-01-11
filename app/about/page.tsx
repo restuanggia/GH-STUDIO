@@ -17,6 +17,13 @@ export default function AboutPage() {
           </div>
         </div>
       </div>
+      <div className="hero bg-base-200 min-h-screen">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src="https://ceklist.id/wp-content/uploads/2023/05/Toko-Komputer-dan-Laptop-Terpercaya.jpg"
+            className="max-w-sm rounded-lg shadow-2xl" />
+        </div>
+      </div>
     </>
   );
 }
