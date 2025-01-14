@@ -92,7 +92,18 @@ export default function ProductPage() {
 
     return (
         <div className="mt-20 px-4">
-            {/* coding disini */}
+           {/* Input Pencarian */}
+           <div className="flex justify-center mb-8">
+                <label className="input input-bordered flex items-center gap-2 w-full max-w-md">
+                    <input
+                        type="text"
+                        className="grow"
+                        placeholder="Search"
+                        value={searchQuery}
+                        onChange={(e) => setSearchQuery(e.target.value)}
+                    />
+                </label>
+                </div>
         </div>
     );
 }
