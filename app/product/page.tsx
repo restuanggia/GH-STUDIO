@@ -40,6 +40,14 @@ export default function ProductPage() {
                 "https://www.filemagz.com/wp-content/uploads/2021/10/keyboard-header-min-scaled.jpg",
             link: "https://www.filemagz.com/jenis-keyboard-komputer-dari-bentuknya/",
         },
+        {
+            id: 5,
+            title: "Printer",
+            description:
+              "PIXMA G3020 dirancang untuk kebutuhan print, scan, dan copy, yang cocok digunakan untuk meningkatkan produktivitas di lingkungan rumah, kantor, dan pelaku ...",
+            image: "https://bandungit.com/wp-content/uploads/2024/01/Sewa-Printer-Bandung.jpg",
+            link: "https://inet.detik.com/consumer/d-5302830/printer-ink-tank-terbaru-canon-janjikan-kemudahan-perawatan",
+          },
 
     ];
 
