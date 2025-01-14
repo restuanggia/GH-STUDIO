@@ -70,22 +70,29 @@ export default function ProductPage() {
             id: 8,
             title: "Modem",
             description:
-              "Modem WiFi terbaik adalah pilihan yang tepat bagi siapa saja yang ingin mendapatkan koneksi internet yang stabil dan cepat di rumah atau kantor. Dengan ...",
+                "Modem WiFi terbaik adalah pilihan yang tepat bagi siapa saja yang ingin mendapatkan koneksi internet yang stabil dan cepat di rumah atau kantor. Dengan ...",
             image:
-              "https://media.istockphoto.com/id/495732397/id/foto/router-wi-fi-hitam.jpg?s=612x612&w=0&k=20&c=xWWapP5odGIt9CCXGf2vMYziByNF4rrN0PTCSmAZsN0=",
+                "https://media.istockphoto.com/id/495732397/id/foto/router-wi-fi-hitam.jpg?s=612x612&w=0&k=20&c=xWWapP5odGIt9CCXGf2vMYziByNF4rrN0PTCSmAZsN0=",
             link: "https://www.corpnet.net.id/blog/internet/modem-wifi-terbaik",
-          },
-          {
+        },
+        {
             id: 9,
             title: "Webcam",
             description:
-              "Sebelum melihat daftar rekomendasi webcam, ada baiknya Sobat Shopee memahami tips memilih webcam murah. Pasalnya, pilihan webcam dengan harga ...",
+                "Sebelum melihat daftar rekomendasi webcam, ada baiknya Sobat Shopee memahami tips memilih webcam murah. Pasalnya, pilihan webcam dengan harga ...",
             image:
-              "https://cdn.thewirecutter.com/wp-content/media/2023/09/webcams-2048px-02096.jpg?auto=webp&quality=75&width=1024",
+                "https://cdn.thewirecutter.com/wp-content/media/2023/09/webcams-2048px-02096.jpg?auto=webp&quality=75&width=1024",
             link: "https://shopee.co.id/inspirasi-shopee/rekomendasi-webcam-murah-terbaik/",
-          },
-
-
+        },
     ];
 
+    const filteredProducts = products.filter((product) =>
+        product.title.toLowerCase().includes(searchQuery.toLowerCase())
+    );
+
+    return (
+        <div className="mt-20 px-4">
+            {/* coding disini */}
+        </div>
+    );
 }
