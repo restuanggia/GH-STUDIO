@@ -66,6 +66,15 @@ export default function ProductPage() {
                 "https://www.usbmemorydirect.com/blog/wp-content/uploads/2022/06/image-1.jpg",
             link: "https://mediaindonesia.com/weekend/37932/flash-disk-atau-flash-drive",
         },
+        {
+            id: 8,
+            title: "Modem",
+            description:
+              "Modem WiFi terbaik adalah pilihan yang tepat bagi siapa saja yang ingin mendapatkan koneksi internet yang stabil dan cepat di rumah atau kantor. Dengan ...",
+            image:
+              "https://media.istockphoto.com/id/495732397/id/foto/router-wi-fi-hitam.jpg?s=612x612&w=0&k=20&c=xWWapP5odGIt9CCXGf2vMYziByNF4rrN0PTCSmAZsN0=",
+            link: "https://www.corpnet.net.id/blog/internet/modem-wifi-terbaik",
+          },
 
 
     ];
