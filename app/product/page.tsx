@@ -92,8 +92,8 @@ export default function ProductPage() {
 
     return (
         <div className="mt-20 px-4">
-           {/* Input Pencarian */}
-           <div className="flex justify-center mb-8">
+            {/* Input Pencarian */}
+            <div className="flex justify-center mb-8">
                 <label className="input input-bordered flex items-center gap-2 w-full max-w-md">
                     <input
                         type="text"
@@ -115,7 +115,19 @@ export default function ProductPage() {
                         />
                     </svg>
                 </label>
-                </div>
+            </div>
+
+            {/* Daftar Produk */}
+            <div className="flex justify-around flex-wrap">
+                {filteredProducts.map((product) => (
+                    <div key={product.id} className="card bg-base-100 w-96 shadow-xl mb-6">
+                        <figure>
+                            <img src={product.image} alt={product.title} />
+                        </figure>
+                        {/* coding disini */}
+                    </div>
+                ))}
+            </div>
         </div>
     );
 }
