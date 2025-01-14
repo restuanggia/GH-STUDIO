@@ -124,10 +124,15 @@ export default function ProductPage() {
                         <figure>
                             <img src={product.image} alt={product.title} />
                         </figure>
-                        {/* coding disini */}
+                        <div className="card-body">
+                            <h2 className="card-title">{product.title}</h2>
+                            <p>{product.description}</p>
+                            <div className="card-actions justify-end">
+                            </div>
+                        </div>
                     </div>
                 ))}
-            </div>
+            </div>  
         </div>
     );
 }
