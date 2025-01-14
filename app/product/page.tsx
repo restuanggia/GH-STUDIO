@@ -44,19 +44,29 @@ export default function ProductPage() {
             id: 5,
             title: "Printer",
             description:
-              "PIXMA G3020 dirancang untuk kebutuhan print, scan, dan copy, yang cocok digunakan untuk meningkatkan produktivitas di lingkungan rumah, kantor, dan pelaku ...",
+                "PIXMA G3020 dirancang untuk kebutuhan print, scan, dan copy, yang cocok digunakan untuk meningkatkan produktivitas di lingkungan rumah, kantor, dan pelaku ...",
             image: "https://bandungit.com/wp-content/uploads/2024/01/Sewa-Printer-Bandung.jpg",
             link: "https://inet.detik.com/consumer/d-5302830/printer-ink-tank-terbaru-canon-janjikan-kemudahan-perawatan",
-          },
-          {
+        },
+        {
             id: 6,
             title: "Speaker",
             description:
-              "Speaker adalah alat yang identik dengan perangkat pengeras suara. Tapi sebenarnya fungsi speaker tak sesederhana itu. Hal ini dikarenakan speaker memiliki beberapa ...",
+                "Speaker adalah alat yang identik dengan perangkat pengeras suara. Tapi sebenarnya fungsi speaker tak sesederhana itu. Hal ini dikarenakan speaker memiliki beberapa ...",
             image:
-              "https://assetsio.gnwcdn.com/arena_ynEUoGs.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
+                "https://assetsio.gnwcdn.com/arena_ynEUoGs.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp",
             link: "https://kumparan.com/ragam-info/mengenal-fungsi-speaker-jenis-dan-bagian-bagiannya-20cMxq3IGSc",
-          },
+        },
+        {
+            id: 7,
+            title: "USB Flash Drive",
+            description:
+                "TEKNOLOGI berkembang begitu cepat. Dahulu, ketika pertama kali komputer dikembangkan, kita mengenal IBM 350. Itu merupakan penyimpan data dengan ...",
+            image:
+                "https://www.usbmemorydirect.com/blog/wp-content/uploads/2022/06/image-1.jpg",
+            link: "https://mediaindonesia.com/weekend/37932/flash-disk-atau-flash-drive",
+        },
+
 
     ];
 
