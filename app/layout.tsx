@@ -36,7 +36,7 @@ export default function RootLayout({
         {/* area footer */}
         <footer className="footer bg-color1 text-color2 p-10">
           <nav>
-            <h6 className="footer-title">Services</h6>
+            <h6 className="footer-title">Layanan</h6>
             <a className="link link-hover">Branding</a>
             <a className="link link-hover">Design</a>
             <a className="link link-hover">Marketing</a>
