@@ -23,7 +23,7 @@ export default function RootLayout({
             <div className="flex-none">
               <ul className="menu menu-horizontal px-1">
                 <li><a href="/">Beranda</a></li>
-                <li><a href="/about">About</a></li>
+                <li><a href="/about">Tentang</a></li>
                 <li><a href="/product">Product</a></li>
               </ul>
             </div>
