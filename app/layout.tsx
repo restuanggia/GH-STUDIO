@@ -24,7 +24,7 @@ export default function RootLayout({
               <ul className="menu menu-horizontal px-1">
                 <li><a href="/">Beranda</a></li>
                 <li><a href="/about">Tentang</a></li>
-                <li><a href="/product">Product</a></li>
+                <li><a href="/product">Produk</a></li>
               </ul>
             </div>
           </div>
