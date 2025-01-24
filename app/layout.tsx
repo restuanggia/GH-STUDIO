@@ -38,7 +38,7 @@ export default function RootLayout({
           <nav>
             <h6 className="footer-title">Layanan</h6>
             <a className="link link-hover">Merek</a>
-            <a className="link link-hover">Design</a>
+            <a className="link link-hover">Desain</a>
             <a className="link link-hover">Marketing</a>
             <a className="link link-hover">Advertisement</a>
           </nav>
