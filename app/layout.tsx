@@ -45,7 +45,7 @@ export default function RootLayout({
           <nav>
             <h6 className="footer-title">TechMart</h6>
             <a href="/" className="link link-hover">Beranda</a>
-            <a href="/about" className="link link-hover">About</a>
+            <a href="/about" className="link link-hover">Tentang</a>
             <a href="/product" className="link link-hover">Product</a>
           </nav>
           <nav>
