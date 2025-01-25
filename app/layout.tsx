@@ -40,7 +40,7 @@ export default function RootLayout({
             <a className="link link-hover">Merek</a>
             <a className="link link-hover">Desain</a>
             <a className="link link-hover">Pemasaran</a>
-            <a className="link link-hover">Advertisement</a>
+            <a className="link link-hover">Iklan</a>
           </nav>
           <nav>
             <h6 className="footer-title">TechMart</h6>
